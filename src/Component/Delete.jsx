@@ -1,6 +1,6 @@
 import React from 'react'
 
-
+import { MdDelete } from "react-icons/md";
 export default function Delete({ name, date,handleondelete,index}) {
   return (
     <>
@@ -13,7 +13,7 @@ export default function Delete({ name, date,handleondelete,index}) {
             {date}
           </div>
           <div className="col">
-            <button type='button' className='btn btn-danger my-2' onClick={()=>handleondelete(index)}>Delete</button>
+            <button type='button' className='btn btn-danger my-2' onClick={()=>handleondelete(index)}><MdDelete /></button>
           </div>
         </div>
       </div>

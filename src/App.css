@@ -28,7 +28,7 @@ body{
     width: 43%;
   }
   .kg-button{
-    width: 120px;
+    width: 80px;
     
   }
   
@@ -41,4 +41,8 @@ text-align: center;
  .todo-item{
   /* width: 200px; */
   width: 150px;
+ }
+ .btn-danger{
+  width: 71px;
+  margin-left: 96px;
  }

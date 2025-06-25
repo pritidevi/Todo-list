@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react'
-
+import { MdAddToPhotos } from "react-icons/md";
 
 export default function Todoadditem({ newitem }) {
     const [todo, settodo] = useState('')
@@ -28,12 +28,12 @@ export default function Todoadditem({ newitem }) {
                     <div className="col-2">
                         <input className='todo-item ' type="text" placeholder='Enter your todos'  value={todo} onChange={ onTodoChange} />
                     </div>
-                    <div className="col-1  column">
+                    <div className="col-2  column">
                         <input type="date" value={date} onChange={ onDateChange} />
                     </div>
                     <div className="col-1">
 
-                        <button type="button" className="btn btn-success kg-button " onClick={handleonclick}>Add Todos</button>
+                        <button type="button" className="btn btn-success kg-button " onClick={handleonclick}><MdAddToPhotos /></button>
                     </div>
                 </div>
 
