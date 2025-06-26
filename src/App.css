@@ -46,3 +46,19 @@ text-align: center;
   width: 71px;
   margin-left: 96px;
  }
+ .box{
+  background-color: rgba(23, 135, 114, 0.15);
+border-radius: 27px;
+height: 49px;
+margin-top: 17px;
+ }
+ .mix-button{
+  display: flex;
+  justify-content: center;
+ }
+ .strikethrough{
+  text-decoration: line-through;
+ }
+.disable{
+  color: rgb(201, 225, 212);
+}
